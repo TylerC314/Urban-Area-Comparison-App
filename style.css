@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;    
+}
+
+.container {
+    width: 100%;
+    height: 80%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    display: block;
+    margin: auto;
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.cities-display {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+}
+
